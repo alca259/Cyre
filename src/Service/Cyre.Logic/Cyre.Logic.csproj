@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Commands\" />
+      <Folder Include="DTOs\" />
+      <Folder Include="Constants\" />
+      <Folder Include="Repository\" />
+      <Folder Include="Queries\" />
+      <Folder Include="Services\Implementations\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Cyre.Domain\Cyre.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

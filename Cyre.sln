@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{52F4DB9A-2B6D-4696-94D8-8F511BF095C0}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D67BA19C-B136-4697-BA71-E85D3059C31A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{1DA1308E-3026-492E-9CA8-A62FF1736E46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{0CD6F043-4C73-4F9F-B8F8-0A999E57B7FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyre.Api", "src\Service\Cyre.Api\Cyre.Api.csproj", "{C5D4F175-3F43-4167-94C9-84AA6E21DDD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyre.Domain", "src\Service\Cyre.Domain\Cyre.Domain.csproj", "{2D94BC41-4B46-4890-846C-87ED8A9307F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyre.Infrastructure", "src\Service\Cyre.Infrastructure\Cyre.Infrastructure.csproj", "{649923AE-72F8-4447-8A8D-3559BF109616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyre.Logic", "src\Service\Cyre.Logic\Cyre.Logic.csproj", "{1A1F8D9C-3967-496E-A566-FDA769851A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{135756FD-01FE-4EE2-826A-DF0727AACC95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5D4F175-3F43-4167-94C9-84AA6E21DDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D4F175-3F43-4167-94C9-84AA6E21DDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D4F175-3F43-4167-94C9-84AA6E21DDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D4F175-3F43-4167-94C9-84AA6E21DDD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D94BC41-4B46-4890-846C-87ED8A9307F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D94BC41-4B46-4890-846C-87ED8A9307F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D94BC41-4B46-4890-846C-87ED8A9307F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D94BC41-4B46-4890-846C-87ED8A9307F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649923AE-72F8-4447-8A8D-3559BF109616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649923AE-72F8-4447-8A8D-3559BF109616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649923AE-72F8-4447-8A8D-3559BF109616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649923AE-72F8-4447-8A8D-3559BF109616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1F8D9C-3967-496E-A566-FDA769851A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1F8D9C-3967-496E-A566-FDA769851A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1F8D9C-3967-496E-A566-FDA769851A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1F8D9C-3967-496E-A566-FDA769851A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DA1308E-3026-492E-9CA8-A62FF1736E46} = {D67BA19C-B136-4697-BA71-E85D3059C31A}
+		{0CD6F043-4C73-4F9F-B8F8-0A999E57B7FD} = {D67BA19C-B136-4697-BA71-E85D3059C31A}
+		{C5D4F175-3F43-4167-94C9-84AA6E21DDD2} = {1DA1308E-3026-492E-9CA8-A62FF1736E46}
+		{2D94BC41-4B46-4890-846C-87ED8A9307F6} = {1DA1308E-3026-492E-9CA8-A62FF1736E46}
+		{649923AE-72F8-4447-8A8D-3559BF109616} = {1DA1308E-3026-492E-9CA8-A62FF1736E46}
+		{1A1F8D9C-3967-496E-A566-FDA769851A5A} = {1DA1308E-3026-492E-9CA8-A62FF1736E46}
+		{135756FD-01FE-4EE2-826A-DF0727AACC95} = {1DA1308E-3026-492E-9CA8-A62FF1736E46}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89955FE6-70CD-455B-836D-6C5775A70A36}
+	EndGlobalSection
+EndGlobal
