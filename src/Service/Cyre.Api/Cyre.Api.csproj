@@ -2,10 +2,30 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>336994b0-6524-4f46-a8e5-01c1a2c1a2e3</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Askmethat.Aspnet.JsonLocalizer" Version="3.1.0" />
+      <PackageReference Include="AspNetCore.Hashids" Version="1.1.1" />
+      <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="5.1.1" />
+      <PackageReference Include="MediatR" Version="9.0.0" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+      <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+      <PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="3.1.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="5.6.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
       <ProjectReference Include="..\Cyre.Logic\Cyre.Logic.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
     </ItemGroup>
 
 </Project>
