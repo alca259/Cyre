@@ -85,6 +85,7 @@ namespace Cyre.Api
             #endregion
 
             #region Localization
+            //https://github.com/AlexTeixeira/Askmethat-Aspnet-JsonLocalizer
             var locationConfig = LocalizationConfiguration.BuildDefault();
             services.AddJsonLocalization(setup =>
             {
@@ -112,6 +113,7 @@ namespace Cyre.Api
             #endregion
 
             #region HashIDs
+            //https://github.com/xabaril/AspNetCore.Hashids
             services.AddHashids(setup =>
             {
                 //setup.MinHashLength = 
